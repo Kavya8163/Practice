@@ -1,0 +1,11 @@
+class st]
+{
+}
+public class Demo
+{
+public static void main(String[] args){
+st s;
+s= new st(){
+};
+}
+}

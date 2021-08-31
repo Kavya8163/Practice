@@ -1,0 +1,32 @@
+class Student
+{
+}
+class MCA Student extends Student
+{
+}
+class Employee
+{
+}
+class Course
+{
+}
+class MonitorDemo
+{
+public static<T>void show(T a[])
+{
+for(int i = 0;i<a.length;i++)
+System.out.println(a[i]);
+}
+public static <T extends Student>show(Students(T a[])
+{
+for(int i = 0;i<a.length;i++)
+System.out.println(a[i]);
+private static void main(String[] args)
+{
+Employee ea[] = new Employee[3];
+ea[0] = new Employee;
+ea[1] = new Employee;
+ea[2] = new Employee;
+show(ea);
+}
+}
