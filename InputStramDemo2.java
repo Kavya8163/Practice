@@ -1,0 +1,29 @@
+
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class InputStramDemo2
+{
+	public static void main(String[] args) {
+		try
+		{
+			FileInputStream fin=new FileInputStream("con");
+ byte b[] = new byte[5];
+ 
+			System.out.println("Enter 5 bytes:");
+			fin.read(b);
+for(int i =0;i<b.length;i++)
+				System.out.println((char)b[i]);
+			fin.close();
+		}
+		catch(IOException io)
+		{
+			System.out.println(io.getMessage());
+		}
+		
+	}
+
+}
+
+
